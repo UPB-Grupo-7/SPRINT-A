@@ -106,3 +106,23 @@ button:hover::after {
     transition: .7s;
 }
 
+/*Camilo*/
+#title{
+    font-family: 'Comfortaa', cursive;
+    margin-left: 250px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.parrafo{
+    font-family: 'Comfortaa', cursive;
+    margin-left: 250px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-family: 'Comfortaa', cursive;
+    margin-left: 250px;
+    margin-right: 30px;
+}
