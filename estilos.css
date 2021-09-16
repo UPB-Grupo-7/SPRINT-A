@@ -109,20 +109,28 @@ button:hover::after {
 /*Camilo*/
 #title{
     font-family: 'Comfortaa', cursive;
+    font-size: 50px;
     margin-left: 250px;
     margin-right: 30px;
-    margin-bottom: 20px;
+    padding: 1em;
 }
 
-.parrafo{
+.parrafo1{
     font-family: 'Comfortaa', cursive;
+    width: 1000px;
     margin-left: 250px;
     margin-right: 30px;
-    margin-bottom: 20px;
+}
+
+.parrafo2{
+    font-family: 'Comfortaa', cursive;
+    width: 400px;
+    transform: translate(250px);
 }
 
 .subtitle{
     font-family: 'Comfortaa', cursive;
-    margin-left: 250px;
-    margin-right: 30px;
+    transform: translate(250px);
+    padding: 1em;
+    margin-top: 20px;
 }
