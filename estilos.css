@@ -134,3 +134,132 @@ button:hover::after {
     padding: 1em;
     margin-top: 20px;
 }
+
+
+/* DANIELA ZUÑIGA PINO*/
+
+#form_registro_usuario {
+    width: 400px;
+    background: #16151b;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+#form_registro_usuario h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #1b1922;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #16151b;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+#form_registro_usuario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#form_registro_usuario a {
+    color: white;
+    text-decoration: none;
+}
+
+#form_registro_usuario a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#btn_enviar_registro {
+    position: absolute;
+    top: 94%;
+    left: 19%;
+    transform: translate(251%, -760%);
+}
+
+#btn_enviar_registro {
+    background: none;
+    color: #ccc;
+    width: 140px;
+    height: 50px;
+    border: 1px solid #338033;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+#btn_enviar_registro:focus {
+    outline: none;
+}
+
+#btn_enviar_registro::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .5);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+#btn_enviar_registro::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translate(-100px) scaleX(-15deg);
+}
+
+#btn_enviar_registro:hover {
+    background: #338033;
+    cursor: pointer;
+}
+
+#btn_enviar_registro:hover:before {
+    transform: translateX(300px) skew(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+#btn_enviar_registro:hover::after {
+    transform: translateX(300px) skew(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+#in_usuario{
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+#in_contrasena{
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+
